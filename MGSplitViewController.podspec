@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "MGSplitViewController"
-  s.version       = "2.0.0"
+  s.version       = "2.0.1"
   s.summary       = "A flexible, advanced split-view controller for iPad developers."
   s.description   = <<-DESC
                    MGSplitViewController is a replacement for UISplitViewController, with various useful enhancements. Forked from the original by Matt Gemmel.
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 
   s.homepage      = "https://github.com/asprega/MGSplitViewController"
   s.license       = "BSD"
-  s.author        = { "Andrea Sprega" => "asprega@vendini.com" }
+  s.author        = { "Marcelo Catach" => "catach@yahoo.com" }
   s.platform      = :ios, "5.0"
-  s.source        = { :git => "https://github.com/asprega/MGSplitViewController.git", :tag => 'v2.0.0' }
+  s.source        = { :git => "https://github.com/catach/MGSplitViewController.git", :tag => 'v2.0.1' }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc  = true
