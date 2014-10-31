@@ -150,8 +150,6 @@
 - (void)dealloc
 {
 	_delegate = nil;
-	self.masterViewController = nil;
-	self.detailViewController = nil;
 	[self.view.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
 }
 
