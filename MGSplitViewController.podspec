@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                    MGSplitViewController is a replacement for UISplitViewController, with various useful enhancements. Forked from the original by Matt Gemmel.
                    DESC
 
-  s.homepage      = "https://github.com/asprega/MGSplitViewController"
+  s.homepage      = "https://github.com/catach/MGSplitViewController"
   s.license       = "BSD"
   s.author        = { "Marcelo Catach" => "catach@yahoo.com" }
   s.platform      = :ios, "5.0"
